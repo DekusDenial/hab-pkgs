@@ -1,4 +1,4 @@
-pkg_name=docker
+pkg_name=docker-aarch64
 pkg_origin=anonymous
 pkg_description="The Docker Engine (Mirror)"
 pkg_version=20.10.14

@@ -1,4 +1,4 @@
-pkg_name=docker-rootless-extras
+pkg_name=docker-rootless-extras-aarch64
 pkg_origin=anonymous
 pkg_description="The Docker Engine Rootless Extras (Mirror)"
 pkg_version=20.10.14
