@@ -1,0 +1,4 @@
+#!/bin/sh
+
+mkdir -p /usr/local/lib/docker/cli-plugins/
+cp $(hab pkg path package/docker-buildx)/bin/docker-buildx /usr/local/lib/docker/cli-plugins/
