@@ -8,7 +8,6 @@ pkg_source="https://github.com/moby/buildkit/releases/download/v${pkg_version}/b
 pkg_upstream_url=https://github.com/moby/buildkit
 pkg_shasum=14d1e0cd76167dae24232bb336384e770aa7c91819df69922e0d3c0d54ddb8de
 pkg_dirname=bin
-pkg_deps=(package/docker)
 pkg_bin_dirs=(bin)
 
 do_build() {
@@ -21,7 +20,6 @@ do_install() {
     done
 }
 
-# Skip stripping down the Go binaries
 do_strip() {
     return 0
 }

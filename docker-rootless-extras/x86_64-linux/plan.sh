@@ -21,7 +21,6 @@ do_install() {
     done
 }
 
-# Skip stripping down the Go binaries
 do_strip() {
     return 0
 }

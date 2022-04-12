@@ -19,12 +19,9 @@ do_build() {
 }
 
 do_install() {
-    # chmod a+x "$HAB_CACHE_SRC_PATH"/"$pkg_filename"
-    # cp "$HAB_CACHE_SRC_PATH"/"$pkg_filename" /usr/local/lib/docker/cli-plugins/docker-buildx
     install -v -D "$HAB_CACHE_SRC_PATH"/"$pkg_filename" "$pkg_prefix"/bin/docker-buildx
 }
 
-# Skip stripping down the Go binaries
 do_strip() {
     return 0
 }
